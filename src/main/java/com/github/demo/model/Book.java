@@ -6,9 +6,8 @@ package com.github.demo.model;
 public class Book {
 
     private String title;
-    private String ismailTest;
     private String author;
-
+    private String helllo="hell";
     private String cover;
 
     public Book() {
@@ -18,10 +17,6 @@ public class Book {
     public Book(String author, String title) {
         this.author = author;
         this.title = title;
-    }
-
-    public Book(String testIsmail) {
-        this.testIsmail = testIsmail;
     }
     
     public Book(String author, String title, String cover) {
