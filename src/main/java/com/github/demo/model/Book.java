@@ -6,7 +6,7 @@ package com.github.demo.model;
 public class Book {
 
     private String title;
-
+    private String ismailTest;
     private String author;
 
     private String cover;
@@ -20,6 +20,10 @@ public class Book {
         this.title = title;
     }
 
+    public Book(String testIsmail) {
+        this.testIsmail = testIsmail;
+    }
+    
     public Book(String author, String title, String cover) {
         this.author = author;
         this.title = title;
